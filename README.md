@@ -5,4 +5,3 @@ This is the First sample application.
 
 by Josh Cuykendall [ESPN](http://espn.com)
 
-Rails Git Practice [Safe Website to Use](http://sex.com)
