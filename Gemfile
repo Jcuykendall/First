@@ -38,7 +38,10 @@ group :development, :test do
 # Use SCSS for stylesheets
 end
 
-
+group :production do
+	gem 'pg'
+	gem 'rails_12factor'
+end
 
 
 group :development, :test do
