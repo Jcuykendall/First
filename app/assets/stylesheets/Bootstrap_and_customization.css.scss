@@ -1,1 +1,23 @@
+@import url(https://fonts.googleapis.com/css?family=Playfair+Display:900);
+
+
+$body-bg: white;
+$font-family-sans-serif:  'Playfair Display', serif;
+$navbar-height:                    45px;
+$navbar-inverse-color:   blue;   
+$navbar-inverse-bg:  blue;
+$navbar-inverse-link-color:  #ecf0f1;
+@navbar-inverse-link-hover-color:  white;
+
+
+
+
 @import 'bootstrap';
+
+.center {
+		text-align: center;
+}
+
+.navbar-brand {
+	font-weight: bold;
+}

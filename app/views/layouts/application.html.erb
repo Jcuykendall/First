@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html>
+
 <head>
   <title>First</title>
   <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track' => true %>
@@ -7,12 +8,14 @@
   <%= csrf_meta_tags %>
 </head>
 <body>
-<%= link_to "Home", root_path %>
 
-<%= link_to "About", about_path %>
 
-<%= link_to "Josh", "http://localhost:3000/Josh" %>
-<%= yield %>
+<%= render 'layouts/header' %>
+
+<div class="container">
+			<%= yield %>
+</div>
+
 
 </body>
 </html>
