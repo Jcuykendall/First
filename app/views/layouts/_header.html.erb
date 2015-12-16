@@ -19,13 +19,19 @@
         <li> <%= link_to "Courtney" , '#' %></li>
 
         <li> <%= link_to "About" , about_path %></li>
-       
+
           </ul>
         </li>
       </ul>
+
+
       <ul class="nav navbar-nav navbar-right">
         <li><a <%= link_to "Josh" , "http://localhost:3000/Josh" %> </a></li>
         <li><a <%= link_to "Home" , root_path %> </a></li>
+        
+        <% if user_signed_in? %>
+        <li> <%= link_to "Log Out" , destroy_user_session_path, method: :delete %></li>
+         <% end %> 
 
           </ul>
         </li>
