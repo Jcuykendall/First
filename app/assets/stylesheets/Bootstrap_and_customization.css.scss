@@ -1,4 +1,4 @@
-@import url(https://fonts.googleapis.com/css?family=Playfair+Display:900);
+@import url(https://fonts.googleapis.com/css?family=Quicksand);
 
 
 $body-bg: white;
@@ -14,8 +14,17 @@ $navbar-inverse-link-color:  #ecf0f1;
 
 @import 'bootstrap';
 
-.jumbotron {
-    padding: 0.3em 0.4em;
+.container {width: 700px;}
+
+
+.jumbotron 
+
+{   
+    text-align: center;
+  
+
+
+padding: 0.3em 0.4em;
     h1 {
         font-size: 2em;
     }
@@ -25,6 +34,8 @@ $navbar-inverse-link-color:  #ecf0f1;
             padding: 0.5em;
         }
     }
+     
+   
 }
 
 
